@@ -12,6 +12,7 @@
 		AEA1FB0C21534174003EAD70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA1FB0A21534174003EAD70 /* Main.storyboard */; };
 		AEA1FB0E21534178003EAD70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA1FB0D21534178003EAD70 /* Assets.xcassets */; };
 		AEA1FB1121534178003EAD70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA1FB0F21534178003EAD70 /* LaunchScreen.storyboard */; };
+		AEA1FB19215343D7003EAD70 /* glen-carrie-713363-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEA1FB18215343D7003EAD70 /* glen-carrie-713363-unsplash.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AEA1FB0D21534178003EAD70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEA1FB1021534178003EAD70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEA1FB1221534178003EAD70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA1FB18215343D7003EAD70 /* glen-carrie-713363-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "glen-carrie-713363-unsplash.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				AEA1FB0621534174003EAD70 /* AppDelegate.swift */,
 				AEA1FB0821534174003EAD70 /* ViewController.swift */,
+				AEA1FB18215343D7003EAD70 /* glen-carrie-713363-unsplash.jpg */,
 				AEA1FB0A21534174003EAD70 /* Main.storyboard */,
 				AEA1FB0D21534178003EAD70 /* Assets.xcassets */,
 				AEA1FB0F21534178003EAD70 /* LaunchScreen.storyboard */,
@@ -124,6 +127,7 @@
 			files = (
 				AEA1FB1121534178003EAD70 /* LaunchScreen.storyboard in Resources */,
 				AEA1FB0E21534178003EAD70 /* Assets.xcassets in Resources */,
+				AEA1FB19215343D7003EAD70 /* glen-carrie-713363-unsplash.jpg in Resources */,
 				AEA1FB0C21534174003EAD70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

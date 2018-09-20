@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +12,86 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Factor_Funny" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="glen-carrie-713363-unsplash.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="u65-q3-ZQY">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Factor Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bJL-j8-iQ8">
+                                <rect key="frame" x="149.5" y="85" width="115" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Fill Number Only" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lec-gl-qSb">
+                                <rect key="frame" x="97" y="175" width="220" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="180" id="GST-aj-D6w"/>
+                                    <constraint firstAttribute="width" constant="220" id="Q10-zD-Fot"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zEL-bZ-BeM">
+                                <rect key="frame" x="117" y="274" width="180" height="30"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="XLy-h5-EOU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Calculate"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XV6-jW-fvw">
+                                <rect key="frame" x="117" y="355" width="180" height="437"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="437" id="C1f-S3-CU1"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="180" id="Y83-oL-rud"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="180" id="bQY-9f-PlH"/>
+                                    <constraint firstAttribute="width" constant="180" id="eWB-SD-oya"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="180" id="eXZ-js-HIy"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="180" id="w05-Gl-7eA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lec-gl-qSb" firstAttribute="top" secondItem="bJL-j8-iQ8" secondAttribute="bottom" constant="69" id="3TO-P4-bbP"/>
+                            <constraint firstItem="bJL-j8-iQ8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="41" id="7CY-Cc-THq"/>
+                            <constraint firstItem="bJL-j8-iQ8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7gh-gd-H9a"/>
+                            <constraint firstAttribute="bottom" secondItem="u65-q3-ZQY" secondAttribute="bottom" id="8eO-3I-fPL"/>
+                            <constraint firstItem="XV6-jW-fvw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EhV-3W-fOo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XV6-jW-fvw" secondAttribute="bottom" constant="70" id="Ehl-nA-7Oc"/>
+                            <constraint firstItem="XV6-jW-fvw" firstAttribute="top" secondItem="zEL-bZ-BeM" secondAttribute="bottom" constant="48" id="FY0-fJ-xrR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XV6-jW-fvw" secondAttribute="bottom" constant="70" id="Gvb-bQ-Vmu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XV6-jW-fvw" secondAttribute="bottom" constant="70" id="HQF-pE-c31"/>
+                            <constraint firstItem="u65-q3-ZQY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="JZR-hQ-WfW"/>
+                            <constraint firstItem="u65-q3-ZQY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="WuA-3D-t2g"/>
+                            <constraint firstItem="lec-gl-qSb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cBP-zQ-Tsg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XV6-jW-fvw" secondAttribute="bottom" constant="73" id="eVt-7S-Cx0"/>
+                            <constraint firstAttribute="trailing" secondItem="u65-q3-ZQY" secondAttribute="trailing" id="gBX-FN-d2y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XV6-jW-fvw" secondAttribute="bottom" constant="70" id="hHt-ia-k71"/>
+                            <constraint firstItem="XV6-jW-fvw" firstAttribute="top" secondItem="zEL-bZ-BeM" secondAttribute="bottom" constant="48" id="knl-u9-HXc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XV6-jW-fvw" secondAttribute="bottom" constant="70" id="nux-Z2-1WM"/>
+                            <constraint firstItem="zEL-bZ-BeM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oT1-s6-Jsd"/>
+                            <constraint firstItem="zEL-bZ-BeM" firstAttribute="top" secondItem="lec-gl-qSb" secondAttribute="bottom" constant="69" id="tuN-6s-uHO"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="39.130434782608695" y="24.107142857142858"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="glen-carrie-713363-unsplash.jpg" width="1280" height="853"/>
+    </resources>
 </document>
